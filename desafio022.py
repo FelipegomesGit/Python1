@@ -15,5 +15,5 @@ print('A quantidade de caracteres de {} sem espaços é {}'. format (nome,dividi
 print('Seu primeiro nome tem {} letras.'.format (nome.find(' ')))
 #ou
 separa = nome.split()
-print('Seu primeiro nome é {} e ele tem {} letras'. format(separa[0], len(separa[0])))
+print('Seu primeiro nome é {} e ele tem {} letras'. format(separa[0], len(separa[0])))# split conta o primeiro nome com o uso do [0] e o len separa todos e exibe o nome identificado como [0]
 
