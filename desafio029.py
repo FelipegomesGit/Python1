@@ -4,6 +4,6 @@ km=int(input('Digite a velocidade: '))
 if km > 80:
     print('Você será multado')
     multa = (km - 80) * 7
-    print ('Sua multa sé de {:.2} reais.'. format (multa))
+    print ('Sua multa sé de {:.2f} reais.'. format (multa))
 else:
     print("Parabéns você esta no limite correto de velocidade")
