@@ -45,7 +45,7 @@ elif computador == 1: #computador jogou papel
         print("Jogador venceu")
     else:
         print("Operacao invalida")
-elif computador == 2:
+elif computador == 2: # tesoura
     if perguntar == 0:
         print("Jogador venceu")
     elif perguntar == 1:
