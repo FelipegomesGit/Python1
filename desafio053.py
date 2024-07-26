@@ -1,0 +1,5 @@
+# palindromo (frases de tras para frente)
+frase = str (input ('Digite uma frase para eu confirmar se é um palindromo: ')).strip().upper()
+print (frase)
+f=len(frase.split())
+print (f)
