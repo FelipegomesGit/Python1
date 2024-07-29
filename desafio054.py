@@ -2,11 +2,11 @@
 import datetime
 cont=0
 contm = 0
-for c in range (0, 7):
-    nas = int (input('Digite seu ano de nascimento utilizando o formato xxxx (ex: 2024): '))
+for c in range (1, 8):
+    nas = int (input('Digite o ano de nascimento da {} utilizando o formato xxxx (ex: 2024): '.format(c)))
     if 1900 <= nas <= 2024:
         print (" seu ano foi aceito")
-        if 2008 >= nas:
+        if 2006 >= nas:
             cont += 1
             print ('Você já pode dirigir!')
         else:
