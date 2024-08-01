@@ -21,6 +21,6 @@ for c in range (1, 5):
 media = soma / c #pegaa soma das idades e divide pelo numero de pessoas
 print('A media de idade do grupo é {}'.format (media))
 print ('O home mais velho tem {} anos e se chama {} '.format (maioridadehomem, nomevelho))
-print()
+print(' A somda de mulheres abaixo de 20 anos é {} .'.format(totalmulher))
 
 
